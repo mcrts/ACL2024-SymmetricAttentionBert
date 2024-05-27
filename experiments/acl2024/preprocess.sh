@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # SRUN -START-
-IMAGE=/netscratch/$USER/enroot/plpi-dev1.0.0.sqsh
+IMAGE=/netscratch/$USER/enroot/plpi-1.0.0.sqsh
 MOUNTS=/netscratch/$USER:/netscratch/$USER,/netscratch/$USER:/ns,"`pwd`":/ws
 MOUNTS=$MOUNTS,/home/$USER:/root
 MOUNTS=$MOUNTS,"`pwd`/plpi":/opt/plpi

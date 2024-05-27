@@ -5,7 +5,7 @@ MODEL_SIZE=base
 N_PROC=2
 
 # SRUN -START-
-IMAGE=/netscratch/$USER/enroot/plpi-dev1.0.1.sqsh
+IMAGE=/netscratch/$USER/enroot/plpi-1.0.1.sqsh
 MOUNTS=/netscratch/$USER:/netscratch/$USER,/netscratch/$USER:/ns,"`pwd`":/ws
 MOUNTS=$MOUNTS,/home/$USER:/root
 MOUNTS=$MOUNTS,"`pwd`/plpi":/opt/plpi
